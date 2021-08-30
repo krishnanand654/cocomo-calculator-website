@@ -2,9 +2,9 @@ $("#my-form").submit(function(e) {
     e.preventDefault();
 });
 
+
 function myFunction() {
     var array1 = [];
-    var array2 = [];
     var arr_name = ["Project","Effort", "Duration", "Staff"];
     console.log(arr_name);
     var mytable = "<table><tr>";

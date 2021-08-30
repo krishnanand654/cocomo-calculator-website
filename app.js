@@ -1,7 +1,7 @@
 function myFunction() {
     var array1 = [];
     var array2 = [];
-    var arr_name = ["Project","effort", "duration", "staff"];
+    var arr_name = ["Project","Effort", "Duration", "Staff"];
     console.log(arr_name);
     var mytable = "<table><tr>";
         for (var i of arr_name){ 

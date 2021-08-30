@@ -1,3 +1,7 @@
+$("#my-form").submit(function(e) {
+    e.preventDefault();
+});
+
 function myFunction() {
     var array1 = [];
     var array2 = [];

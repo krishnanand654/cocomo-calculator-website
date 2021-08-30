@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<body>
+    <div class="head">
+        <h1>COCOMO Model</h1>
+        <p>
+            Cocomo (Constructive Cost Model) is a regression model based on LOC, i.e number of Lines of Code.
+             It is a procedural cost estimate model for software projects and often used as a process of reliably
+             predicting the various parameters associated with making a project such as size, effort, cost, time and quality.
+        </p>
+    </div>
+
+    <div class="box">
+        <h4><u>Variables</u></h4>
+        <table class="table-sm table-striped table-bordered ">
+            <thead >
+            <tr>
+                <th>Project</th>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+            </tr>
+             </thead>
+            <tr>
+                <td>Organic</td>
+                <td>2.4</td>
+                <td>1.05</td>
+                <td>2.5</td>
+                <td>0.38</td>
+            </tr>
+            <tr>
+                <td>Semi-detached</td>
+                <td>2.4</td>
+                <td>1.05</td>
+                <td>2.5</td>
+                <td>0.38</td>
+            </tr>
+            <tr>
+                <td>Embeded</td>
+                <td>2.4</td>
+                <td>1.05</td>
+                <td>2.5</td>
+                <td>0.38</td>
+            </tr>
+        </table>
+    </div>
+    
+<div class="box">
+    <h4><u>Calculator</u></h4>
+    <form>
+        <div class="form-group">
+          <input type="number" class="form-control" id="myText" placeholder="Enter KLOC" autocomplete='off'>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="myFunction()">Calculate</button>
+      </form>
+
+        <div class="table-responsive">
+            <table id="ID" class="table table-bordered "></table>     
+        </div>
+</div>
+
+<footer class="end">
+    <p class="end-sub">for more details visit : <a href="https://krishnanand-a.web.app"> https://krishnanand-a.web.app</a></p>
+
+    <p class="end-sub">Copyright © 2021 owned by Krishnanand A</p>
+<footer>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
